@@ -1,4 +1,4 @@
-# FrontEnd-Week2
+# FrontEnd-Week2 -- CSS
 
 ## Promineo Tech FrontEnd Software Development Coding Bootcamp 
 ## Week 8 of 12 
