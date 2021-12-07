@@ -1,0 +1,153 @@
+#box-model {
+    padding: 20px;
+    border-style: solid;
+    border-width: 4px;
+    margin: 20px;
+    width: 550px;
+    align-content: center;
+}
+
+#box-model-2 {
+    padding: 20px;
+    border-style: solid;
+    border-width: 4px;
+    margin: 20px;
+    width: 300px;
+    align-content: center;
+    align-self: auto;
+}
+
+table {
+   border-collapse: collapse;
+   width:  50%;
+   background-color: plum;
+}
+
+h1:hover {
+    background-color: plum;
+}
+
+h2:hover {
+    background-color: plum;
+}
+
+h3:hover {
+    background-color: plum;
+}
+
+h4:hover {
+    background-color: plum;
+}
+
+blockquote {
+    border: teal;
+    
+}
+
+th,td {
+   padding: 8px;
+   text-align: left;
+   border-bottom: 1px solid blueviolet;
+   border-left: rebeccapurple
+}
+
+tr:hover {
+   background-color: pink;
+}
+
+tr:nth-child(even) {
+   background-color: snow;
+}
+
+
+th,td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid blueviolet;
+    border-left: rebeccapurple
+ }
+
+.hov {
+    height: 200px;
+    width: 200px;
+    background-color: blue solid black;
+    border-style : 1px solid black;
+}
+
+.hov:hover {
+    background-color: red;
+}
+
+.every-even li:nth-child(even) {
+    background-color : lightpink;
+}
+
+.every-third li:nth-child(3n) {
+    background-color: aqua;
+}
+
+.img {
+    border-radius: 5px solid black ;
+}
+
+.img:hover {
+    background-color: yellow;
+    border-radius: 3px solid black ;
+}
+
+  h1 {
+    color: purple;
+  }
+  h2 {
+      color: blueviolet;
+  }
+  h3 {
+      color: paleturquoise;
+  }
+  h4 {
+      color: fuchsia;
+  }
+
+div {
+    background-color: silver; 
+    border-style: solid; 
+    border-color: blueviolet; 
+    border-radius: 5px;
+}
+.shadow-text {
+    text-shadow: gray 1px 1px;
+}
+
+button {
+    border: 2px solid blueviolet;
+    width: 200px;
+    background-color: skyblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: lightgray;
+    color: plum;
+}
+
+form {
+    border: blueviolet;
+    background: skyblue;
+    border-style: dotted;
+    width: 550px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.big-text-30 {
+    font-size: 30px;
+}
+
+
+
