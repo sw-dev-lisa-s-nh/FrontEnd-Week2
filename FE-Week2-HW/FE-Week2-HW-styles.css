@@ -5,6 +5,7 @@
     margin: 20px;
     width: 550px;
     align-content: center;
+    align-self:auto;
 }
 
 #box-model-2 {
@@ -130,6 +131,8 @@ button {
     border-radius: 50%;
     transition-duration: 0.4s;
 }
+
+
 
 .button:hover {
     background-color: lightgray;
