@@ -5,71 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia&family=Dancing+Script&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link href="FE-Week2-HW-styles.css" rel="stylesheet">
     <script src="flashingTitle.js"></script>
 
 </head>
 <body>
-    <h1>Available Resources</h1>
-    <div style="background-image: url('music.jpg');
-    background-size: cover; height:100px; padding-top:60px;">
-        <a href="index.html">Cello Central</a> <br>
-        <a href="about.html">About the Cello</a> <br>
-        <a href="reachMe.html">Available Resources</a> <br>
+    <div>
+    <h1><center>Available Resources</center></h1>
+    <header>
+        <div style="background-image: url('music.jpg');
+        background-size: cover; height:150px; padding-top:60px;">
+        <nav>
+            <ul>
+                <li><a href="index.html">Cello Central</a> </li>
+                <li><a href="about.html">About Cello</a> </li>
+                <li><a href="reachMe.html">Available Resources</a> </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <br><br>
+    <div id="box-model">
+        <h2 class="big-text-30"><span style="text-decoration: underline;">Resource for Cello Music</span></h2>
+        <p class="shadow-text">IMSLP, also known as the International Music Score 
+        Library Project or Petrucci Music Library, was started 
+        in 2006. The logo on the main page is a capital letter A. 
+        It was taken from the beginning of the very first printed 
+        book of music, the Harmonice Musices Odhecaton. It was 
+        published in Venice in 1501 by Ottaviano Petrucci, the 
+        library's namesake.</p>
+
+        <center><button><a href="https://imslp.org/wiki/Category:For_cello">Cello Music Resource</a></button></center> <br>
+        <br>
     </div>
+
+    <div id="box-model-2">
+        <h2 class="big-text-30"><span style="text-decoration: underline;">Ask a Cello Question:  Please answer all of the fields</span></h2>
+        <form>
+            <input type="text" name="firstName" placeholder="First Name"><br><br>
+            <input type="text" name="lastName" placeholder="Last Name"><br><br>
+            <input type="text" name="phone" placeholder="Phone Number"><br><br>
+            <b>Enter your level of cello experience:</b> 
+                <label for="levelofexperience">Beginner</label>
+                <input type="radio" name="levelofexperience" id="beginner" value="beginner">
+                <label for="levelofexperience">Intermediate</label>
+                <input type="radio" name="levelofexperience" id="intermediate" value="intermediate">
+                <label for="levelofexperience">Expert</label>
+                <input type="radio" name="levelofexperience" id="expert" value="expert"><br><br>
+            <input type="text" name="questionaboutcellos" placeholder="Ask a Cello Question"><br><br>
+            <input type="submit" value="Click Here to Submit Information!"><br><br>
+        </form>
+   </div>
     <br><br>
-    <h2><span style="text-decoration: underline;">Resource for Cello Music</span></h2>
-    <p class="shadow-text">IMSLP, also known as the International Music Score <br>
-    Library Project or Petrucci Music Library, was started <br>
-    in 2006. The logo on the main page is a capital letter A. <br>
-    It was taken from the beginning of the very first printed <br>
-    book of music, the Harmonice Musices Odhecaton. It was <br>
-    published in Venice in 1501 by Ottaviano Petrucci, the <br>
-    library's namesake.</p>
+    <div id="box-model-4">
+        <h2 class="big-text-30"><span style="text-decoration: underline;">Additional Cello Resources</span></h2>
+        <table>
+            <button>
+                <a href="https://www.google.com/search?rlz=1C5CHFA_enUS981US982&tbs=lf:1,lf_ui:10&tbm=lcl&q=find+new+england+string+stores&rflfq=1&num=10&sa=X&ved=2ahUKEwjc47PqqtX0AhUJjYkEHTMOCoUQjGp6BAgLEF0&biw=1205&bih=676&dpr=2#rlfi=hd:;si:;mv:[[43.306911799999995,-70.8630194],[41.2799578,-72.6126307]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:10">New England Stores for Strings</a>
+            </button>
+            <button>
+                <a href="https://www.google.com/search?rlz=1C5CHFA_enUS981US982&tbs=lf:1,lf_ui:2&tbm=lcl&q=Where+to+take+Music+Lessons+on+Strings+in+New+England&rflfq=1&num=10&sa=X&ved=2ahUKEwiUkc2Ot9X0AhVvn-AKHcyADlAQjGp6BAgNEG0&biw=1205&bih=676&dpr=2#rlfi=hd:;si:;mv:[[42.976034299999995,-71.01244419999999],[42.2439202,-72.35009]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2">String Lessons</a>
+            </button>
+            <tr>
+                <th>Store</th>
+                <th>Link</th>
+            </tr>
 
-    <button><a href="https://imslp.org/wiki/Category:For_cello">Cello Music Resource</a></button> <br>
-    <br>
-
-    <h2><span style="text-decoration: underline;">Ask a Cello Question</span></h2>
-    <form>
-        <input type="text" name="firstName" placeholder="First Name"><br><br>
-        <input type="text" name="lastName" placeholder="Last Name"><br><br>
-        <input type="text" name="phone" placeholder="Phone Number"><br><br>
-        <b>Enter your level of cello experience:</b> 
-            <label for="levelofexperience">Beginner</label>
-            <input type="radio" name="levelofexperience" id="beginner" value="beginner">
-            <label for="levelofexperience">Intermediate</label>
-            <input type="radio" name="levelofexperience" id="intermediate" value="intermediate">
-            <label for="levelofexperience">Expert</label>
-            <input type="radio" name="levelofexperience" id="expert" value="expert"><br><br>
-        <input type="text" name="questionaboutcellos" placeholder="Ask a Cello Question"><br><br>
-        <input type="submit" value="Click Here to Submit Information!"><br><br>
-    </form>
-   
-    <br><br>
-    <h2><span style="text-decoration: underline;">Additional Cello Resources</span></h2>
-    <table>
-        <h4><b><span style="text-decoration: underline;">New England String Stores</span></b></h2>
-      
-        <tr>
-            <th>Store</th>
-            <th>Link</th>
-        </tr>
-
-        <tr>
-            <td>Johnson Strings, Newton Upper Falls, MA</td>
-            <td><a href="https://www.johnsonstring.com/">Visit Johnson Strings</a></td>
-        </tr>
-        <tr>
-            <td>Bows and Bridges, Westford, MA</td>
-            <td><a href="https://www.bridgesandbows.com/bb/">Visit Bows & Bridges</a></td>
-        </tr>
-    </table>
+            <tr>
+                <td>Johnson Strings, Newton Upper Falls, MA</td>
+                <td><a href="https://www.johnsonstring.com/">Visit Johnson Strings</a></td>
+            </tr>
+            <tr>
+                <td>Bows and Bridges, Westford, MA</td>
+                <td><a href="https://www.bridgesandbows.com/bb/">Visit Bows & Bridges</a></td>
+            </tr>
+        </table>
+    </div>
     <br><br>
     <div style="background-image: url('music.jpg');
     background-size: cover; height:100px; padding-top:60px;">
     </div>
     <br><br><br>
     <script src="flashingTitle.js"></script>
+    </div>
 </body>
 </html>
