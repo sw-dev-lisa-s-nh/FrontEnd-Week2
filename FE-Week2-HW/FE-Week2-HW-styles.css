@@ -79,6 +79,13 @@ body {
     display: flex;  
 }
 
+
+#box-6 {
+    margin: auto;
+    width: 80%;
+    display: flex;  
+}
+
 #box-skinny {
     padding: 20px;
     border-style: solid;
