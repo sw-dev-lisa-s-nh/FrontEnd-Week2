@@ -4,7 +4,7 @@ body {
     font-family: 'Merriweather', serif;
 }
 
-#box-model-body {
+.boxes {
     padding: 20px;
     border-style: solid;
     border-width: 4px;
@@ -14,54 +14,72 @@ body {
     align-self:auto;
 }
 
-#box-model {
-    padding: 20px;
-    border-style: solid;
-    border-width: 4px;
-    margin: 30px;
-    width: 700px;
-    align-content: center;
+/* #box2, #box1 {
+    background-image: url("music.jpg");
+    background-size: cover;  /* fills the box 
+    margin-top: 100px;
+    font-size: 2.5em;
+    padding: 1em;
+    color:  rgba(86,  121,   76,  1) ; /* just "color" here */
+    /* rgb(255, 0, 0) */
+    /* #fff -- /*  use rgba to get completely transparent  with a 0*/
+    /*font-family:'Merriweather', serif; /* normally comes from google stylesheet */
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Courier New', Courier, monospace;
+    font-family: 'Dancing Script', cursive;
+    float: right;
+} */
+#box-model-body {
+    margin: 20px;
+    width: 100%;
 }
 
-#box-model-1-5 {
-    padding: 20px;
-    border-style: solid;
-    border-width: 4px;
+#box-model {
+    width: 70%;
+    padding: 10px;
+    margin: auto;
+    display: flex;  
+}
+
+#box-1 {
     margin: 30px;
     width: 475px;
-    align-content: center;
+    display: flex;
+    float: right;
+}
+#box-1-5 {
+    margin: 30px;
+    width: 475px;
     display: flex;
 }
-#box-model-2 {
-    padding: 20px;
-    border-style: solid;
-    border-width: 4px;
+#box-2 {
     margin: 30px;
     width: 450px;
-    align-content: center;
     display: flex;
+    float: right;
 }
 
-#box-model-3 {
-    padding: 20px;
-    border-style: solid;
-    border-width: 4px;
+#box-3 {
     margin: 20px;
     width: 500px;
-    align-content: center;
     display: flex;
 }
-#box-model-4 {
-    padding: 20px;
-    border-style: solid;
-    border-width: 4px;
-    margin: 10px;
-    width: 800px;
-    align-content: center;
-    display: flex;   
+#box-4 {
+    /* margin: 10px;
+    width: 800px; */
+    padding: 10px;
+    margin: auto;
+    width: 60%;
+    display: flex;  
 }
 
-#box-model-skinny {
+#box-5 {
+    margin: auto;
+    width: 70%;
+    display: flex;  
+}
+
+#box-skinny {
     padding: 20px;
     border-style: solid;
     border-width: 4px;
@@ -70,11 +88,16 @@ body {
     align-content: center;
 }
 
-#box-model-square {
+#box-square {
     border-style: solid;
     border-width: 4px;
     width: 100px;
     height: 100px;
+    text-align: center;
+    display: flex;
+}
+
+.center {
     text-align: center;
 }
 
@@ -153,10 +176,10 @@ th,td {
     background-color: aqua;
 }
 
-.img {
+img {
     border-radius: 5px solid black ;
     padding:  30px;
-    margin: 20px;
+    margin: 10px;
     display: flex;
 }
 
